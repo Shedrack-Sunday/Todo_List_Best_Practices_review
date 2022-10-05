@@ -13,8 +13,7 @@ const Tasks = class {
   populateFields = () => {
     let i = -1;
     this.tasks.forEach((task) => {
-      i += 1;
-      task.index = i;
+      task.index = i++;
     });
     localStorage.setItem("savedTasks", JSON.stringify(this.tasks));
   };

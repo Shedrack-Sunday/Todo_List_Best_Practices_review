@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 
 ## Built With
 
-- HTML, CSS, JavaScript, Npm and Webpack, IDM environment.
+- Npm and Webpack, IDM environment.
 
 ## Getting Started
 
